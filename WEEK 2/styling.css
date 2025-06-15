@@ -1,0 +1,29 @@
+h1{
+    color: brown;
+    font-family: sans-serif;
+}
+p{
+    color: red;
+    font-family: fantasy;
+}
+/* Ordering our lists */
+ul{
+    list-style-type:disc;
+    list-style-image: url("images/pointer-icon.png");
+}
+ol{
+    list-style-type:circle;
+    list-style-position: calc();
+}
+/* Styling our Menu */
+/* Menu-bar was added to split this button from other buttons */
+#menu-bar a{
+ font-family: Helvetica, sans-serif;
+ text-decoration: none;
+ background-color: aquamarine;
+ padding: 5px;
+}
+#menu-bar a:hover{
+ background-color: aqua;
+ color: #ffffff;
+}
